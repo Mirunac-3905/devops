@@ -1,8 +1,99 @@
-hello
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<h1>hi</h1>
-<h1>hello world</h1>
-  <p>This is devops session</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Demo Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .intro, .pipeline, .footer-note {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+<body>
+    <header>
+        <h1>🚀 DevOps Demo Website</h1>
+        <p>Continuous Integration & Continuous Deployment in Action</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>What is DevOps?</h2>
+            <p>
+                DevOps is a set of practices that combines software development (Dev) 
+                and IT operations (Ops). It aims to shorten the systems development 
+                life cycle while delivering features, fixes, and updates frequently 
+                in close alignment with business objectives.
+            </p>
+        </section>
+
+        <section class="pipeline">
+            <h2>Our CI/CD Pipeline</h2>
+            <ul>
+                <li>🔹 Code Commit → GitHub</li>
+                <li>🔹 Build & Test → Jenkins</li>
+                <li>🔹 Quality Analysis → SonarQube</li>
+                <li>🔹 Containerization → Docker</li>
+                <li>🔹 Deployment → Kubernetes / AWS</li>
+            </ul>
+        </section>
+
+        <section class="footer-note">
+            <h3>Deployed using Jenkins 🚀</h3>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DevOps Demo | Built with ❤️ by Jenkins</p>
+    </footer>
+</body>
 </html>
